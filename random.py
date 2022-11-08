@@ -1,3 +1,6 @@
+# import random
 import random
-
-print(random.randrange(1, 10)) 
+  
+# prints a random value from the list
+list1 = [1, 2, 3, 4, 5, 6]
+print(random.choice(list1))
