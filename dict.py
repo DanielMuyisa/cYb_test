@@ -6,15 +6,15 @@ mb = {
 
 # get
 x = mb.get('id')
-print(x)
+# print(x)
 
 # keys
 keys = mb.keys()
-print(keys)
+# print(keys)
 
 # chenge value
 mb['id'] = 2
-print(mb.values())
+# print(mb.values())
 
 # update dict
 mb.update({
@@ -22,9 +22,21 @@ mb.update({
     'age': 0,
 })
 
-print(mb.values())
+# print(mb.values())
 
 
 # add value
 mb['genre'] = 'X'
-print(mb)
+# print(mb)
+
+# copy dict
+new_dict = mb.copy()
+new_dict.update({
+    'name': 'new name',
+    'age': 40
+})
+# print(new_dict)
+
+# copy with dict fx
+dict_fx = dict(new_dict)
+print(dict_fx.keys())
