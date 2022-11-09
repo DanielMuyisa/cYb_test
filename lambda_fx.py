@@ -16,3 +16,11 @@ newfx = anonymous_lambda(5)
 mlti = newfx(3)
 
 print(mlti)
+
+
+def lambdas(n):
+    return lambda a: a * n
+
+
+callfx = lambdas(2)
+print(callfx(4))
