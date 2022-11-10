@@ -24,4 +24,3 @@ def lambdas(n):
 
 callfx = lambdas(2)
 print(callfx(4))
-print(callfx(19))
