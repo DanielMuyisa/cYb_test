@@ -7,3 +7,4 @@
 
 name = 'john'
 print("%s!")
+print("%s!")
