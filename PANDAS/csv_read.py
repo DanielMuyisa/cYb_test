@@ -4,7 +4,7 @@ path = "./manage/files/csv/electronic.csv"
 file = pd.read_csv(path)
 
 # max row to read
-max = pd.options.display.max_rows
+max = pd.options.display.max_rows = 3
 print(max)
 
 # specify the max rows/column to print

@@ -17,6 +17,6 @@ s = platform.uname()
 
 # DATE
 date = datetime.datetime.now()
-print(date.strftime("%A"))
+# print(date.strftime("%A"))
 # -- date obj
-print(datetime.datetime(25, 10, 2022))
+print(datetime.datetime(2022, 10, 10))

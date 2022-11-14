@@ -2,11 +2,18 @@ snt = "I'm live my life like every day is {}"
 
 lst = ["Monday", "Tuesday", "wednezday",
        "Truday", "friday", "Saturday", "sunday"]
+
 i = 0
-while i in range(len(lst)):
-    frmt = snt.format(lst[i])
-    print(frmt)
+while (i < len(lst)):
+    print(snt.format(lst[i]))
     i += 1
+
+
+# i = 0
+# while i in range(len(lst)):
+#     frmt = snt.format(lst[i])
+#     print(frmt)
+#     i += 1
 
 
 # indexed paman

@@ -2,10 +2,9 @@ import re
 
 synt = 'All people seems to need data processing'
 synt2 = "Hey con, i'm looking the the hacker-one forum"
-# search = re.search("^All.*processing$", synt)
+search = re.search("^All.*processing$", synt)
 
-
-# print(search)
+print(search)
 
 # print a list of all matches
 res = re.findall('data', synt)

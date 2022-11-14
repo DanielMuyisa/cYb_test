@@ -11,7 +11,6 @@ mb = {
     }
 }
 
-
-for i in mb:
-    for j in mb[i]:
-        print(mb[i].get("name"))
+for x in mb:
+    for y in mb:
+        print(mb[y])
