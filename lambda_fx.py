@@ -16,6 +16,7 @@ newfx = anonymous_lambda(5)
 mlti = newfx(3)
 
 print(mlti)
+# lsx
 
 
 def lambdas(n):
