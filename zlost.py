@@ -4,3 +4,5 @@
 
 
 # pandas read json
+# numpy
+# scapy
