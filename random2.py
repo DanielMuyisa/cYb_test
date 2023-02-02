@@ -1,0 +1,2 @@
+zrandom = "x"
+print(zrandom)
