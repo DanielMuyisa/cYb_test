@@ -20,6 +20,7 @@ for i in range(0, 100):
     table.append(i)
     if len(table) >= 100:
         for j in table:
+
             if debut < 5:
                 print(random.choice(table))
                 debut += 1
