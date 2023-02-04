@@ -1,0 +1,9 @@
+#Modification of linear search function
+
+For each element in the searchList
+  if element equal target value then
+    Add its index to a list of occurrences
+if the list of occurrences is empty
+  raise ValueError
+otherwise
+  return the list occurrences
